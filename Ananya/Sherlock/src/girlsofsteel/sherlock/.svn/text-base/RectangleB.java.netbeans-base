@@ -1,0 +1,92 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package girlsofsteel.sherlock;
+
+import edu.wpi.first.wpijavacv.WPIPoint;
+
+/**
+ *
+ * @author user
+ */
+public class RectangleB {
+
+    WPIPoint topBLeft;
+    WPIPoint topBRight;
+    WPIPoint bottomBLeft;
+    WPIPoint bottomBRight;
+
+    public RectangleB(WPIPoint[] pointsB) {// I added a B. :) (oh haha you did that too!) 
+
+        Math.acos(.5);
+        topBLeft = pointsB[0];
+        for (int m = 1; m < 4; m++) {
+            if (pointsB[m].getX() < topBLeft.getX()) {
+                topBLeft = pointsB[m];
+            }
+
+            // Finds bottom left point. doing similar stuff as before.
+            bottomBLeft = null;
+            for (int o = 0; o < 4; o++) {
+                if (pointsB[o] != topBLeft && (bottomBLeft == null || pointsB[o].getX() < bottomBLeft.getX())) {
+                    bottomBLeft = pointsB[o];
+                }
+            }
+            //Flips which is top and which is bottom if they are wrong from the previous bit.
+            if (bottomBLeft.getY() < topBLeft.getY()) {
+                WPIPoint temp = topBLeft;
+                topBLeft = bottomBLeft;
+                bottomBLeft = temp;
+            }
+
+            //Finds right most pointsB. Checks that it is not one of the left pointsB then decides if it is the top or bottom right point.
+            topBRight = null;
+            bottomBRight = null;
+            for (int y = 0; y < 4; y++) {
+                if (pointsB[y] != topBLeft && pointsB[y] != bottomBLeft) {
+                    if (topBRight == null) {
+                        topBRight = pointsB[y];
+                    } else {
+                        bottomBRight = pointsB[y];
+                    }
+                }
+            }
+            //Flips which is top and which is bottom if they are wrong from the previous bit. 
+            if (bottomBRight.getY() < topBRight.getY()) {
+                WPIPoint temp = topBRight;
+                topBRight = bottomBRight;
+                bottomBRight = temp;
+            }
+        }
+    }
+
+    public RectangleB(WPIPoint topBLeft, WPIPoint topBRight, WPIPoint bottomBLeft, WPIPoint bottomBRight) {
+        this.topBLeft = topBLeft;
+        this.topBRight = topBRight;
+        this.bottomBLeft = bottomBLeft;
+        this.bottomBRight = bottomBRight;
+    }
+
+    public double distance(WPIPoint point1, WPIPoint point2) {
+        int dx = point1.getX() - point2.getX();
+        int dy = point1.getY() - point2.getY();
+        return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    public WPIPoint midpoint(WPIPoint point1, WPIPoint point2) {
+        int xc = (point1.getX() + point2.getX()) / 2;
+        int yc = (point1.getY() + point2.getY()) / 2;
+        return new WPIPoint(xc, yc);
+    }
+
+    public WPIPoint getCenterpoint() {
+        WPIPoint cy = midpoint(topBLeft, bottomBLeft);
+        WPIPoint cx = midpoint(topBLeft, topBRight);
+        return new WPIPoint(cx.getX(), cy.getY());
+
+    }
+
+   
+
+}

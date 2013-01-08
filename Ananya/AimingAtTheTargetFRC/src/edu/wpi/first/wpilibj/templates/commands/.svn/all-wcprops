@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/girlsofsteel_robot/!svn/ver/284/GOS2012/AimingAtTheTargetFRC/src/edu/wpi/first/wpilibj/templates/commands
+END
+CommandBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/girlsofsteel_robot/!svn/ver/284/GOS2012/AimingAtTheTargetFRC/src/edu/wpi/first/wpilibj/templates/commands/CommandBase.java
+END
+PointAtTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/girlsofsteel_robot/!svn/ver/284/GOS2012/AimingAtTheTargetFRC/src/edu/wpi/first/wpilibj/templates/commands/PointAtTarget.java
+END
+ExampleCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/girlsofsteel_robot/!svn/ver/284/GOS2012/AimingAtTheTargetFRC/src/edu/wpi/first/wpilibj/templates/commands/ExampleCommand.java
+END

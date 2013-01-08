@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command
+END
+WaitCommand.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/WaitCommand.class
+END
+Command$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/Command$1.class
+END
+Command$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/Command$2.class
+END
+Command.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/Command.class
+END
+Scheduler.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/Scheduler.class
+END
+IllegalUseOfCommandException.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/IllegalUseOfCommandException.class
+END
+Subsystem.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/Subsystem.class
+END
+Set.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/Set.class
+END
+CommandGroup$Entry.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/CommandGroup$Entry.class
+END
+CommandGroup.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/CommandGroup.class
+END
+LinkedListElement.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/edu/wpi/first/wpilibj/command/LinkedListElement.class
+END

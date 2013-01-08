@@ -1,0 +1,38 @@
+10
+
+dir
+325
+http://girlsofsteel.unfuddle.com/svn/girlsofsteel_robot/GOS2012/AimingAtTheTargetFRC/src/edu/wpi/first
+http://girlsofsteel.unfuddle.com/svn/girlsofsteel_robot
+
+
+
+2012-02-14T23:25:45.885649Z
+284
+GOS
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b9371eab-a548-4e2e-93ef-dcaf39bea3e9
+
+
+
+
+
+
+0
+
+wpilibj
+dir
+

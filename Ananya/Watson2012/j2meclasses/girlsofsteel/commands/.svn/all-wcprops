@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands
+END
+AutoShootImmobile.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutoShootImmobile.class
+END
+AutonomousCommand2.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutonomousCommand2.class
+END
+GoToLocation.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/GoToLocation.class
+END
+CameraShooterTest.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/CameraShooterTest.class
+END
+MoveToSetPoint.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/MoveToSetPoint.class
+END
+DriveJagsSquared.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveJagsSquared.class
+END
+AutoMoveBackCollectShoot.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutoMoveBackCollectShoot.class
+END
+DisableChassis.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DisableChassis.class
+END
+Shoot.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/Shoot.class
+END
+DriveVelocitySquared.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveVelocitySquared.class
+END
+GoToMiddleBridge.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/GoToMiddleBridge.class
+END
+TestTurret.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/TestTurret.class
+END
+LoadFast.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/LoadFast.class
+END
+DriveCombination.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveCombination.class
+END
+DrivePositionChassisTuning.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DrivePositionChassisTuning.class
+END
+StopCollectors.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/StopCollectors.class
+END
+Collect.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/Collect.class
+END
+AutoDelayShoot.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutoDelayShoot.class
+END
+Tally.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/Tally.class
+END
+TurretTrackTarget.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/TurretTrackTarget.class
+END
+DelayTime.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DelayTime.class
+END
+AutoShoot.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutoShoot.class
+END
+DriveVelocityChassisTuning.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveVelocityChassisTuning.class
+END
+TestChassis.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/TestChassis.class
+END
+ThreeBallsNo.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/ThreeBallsNo.class
+END
+AutonomousCommand.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutonomousCommand.class
+END
+ManualShootingPower.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/ManualShootingPower.class
+END
+CommandBase.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/CommandBase.class
+END
+ExampleCommand.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/ExampleCommand.class
+END
+ShootUsingJoystick.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/ShootUsingJoystick.class
+END
+AutoMoveBackCollect.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutoMoveBackCollect.class
+END
+BridgeUp.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/BridgeUp.class
+END
+DisableShooter.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DisableShooter.class
+END
+TurnToSetPoint.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/TurnToSetPoint.class
+END
+DriveVelocitySqrt.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveVelocitySqrt.class
+END
+BridgeDown.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/BridgeDown.class
+END
+DriveVelocityLinear.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveVelocityLinear.class
+END
+DriveJagsSqrt.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveJagsSqrt.class
+END
+ManualTurretTurning.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/ManualTurretTurning.class
+END
+AutoShootWhileMoving.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/AutoShootWhileMoving.class
+END
+GetBallsOut.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/GetBallsOut.class
+END
+DriveJagsLinear.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/girlsofsteel_robot/!svn/ver/489/Watson2012/j2meclasses/girlsofsteel/commands/DriveJagsLinear.class
+END

@@ -1,0 +1,103 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package girlsofsteel.sherlock;
+
+import edu.wpi.first.smartdashboard.camera.WPICameraExtension;
+import edu.wpi.first.smartdashboard.properties.IntegerProperty;
+import edu.wpi.first.wpijavacv.*;
+import edu.wpi.first.wpilibj.networking.NetworkTable;
+import edu.wpi.first.wpijavacv.WPIPoint;
+import javax.swing.JOptionPane;
+
+public class LocateBall extends WPICameraExtension {
+
+    IntegerProperty redThreshold = new IntegerProperty(this, "Red MaximumB", 85);
+    IntegerProperty blueThreshold = new IntegerProperty(this, "Blue MinimumB", 180);
+    IntegerProperty greenThreshold = new IntegerProperty(this, "Green MinimumB", 180);
+    WPIPoint topBLeft;
+    WPIPoint topBRight;
+    WPIPoint bottomBLeft;
+    WPIPoint bottomBRight;
+
+    @Override
+    public WPIImage processImage(WPIColorImage rawImage) {
+        try {
+            //Gets the 3 channels.
+            WPIGrayscaleImage red = rawImage.getRedChannel();
+            WPIGrayscaleImage blue = rawImage.getBlueChannel();
+            WPIGrayscaleImage green = rawImage.getGreenChannel();
+
+            //Thresholding! YAY!
+            WPIBinaryImage thresholdgB = green.getThreshold(greenThreshold.getValue());
+            WPIBinaryImage thresholdbB = blue.getThreshold(blueThreshold.getValue());
+            WPIBinaryImage thresholdrB = red.getThresholdInverted(redThreshold.getValue());
+
+            //combining 3 images with thresholds.
+            WPIBinaryImage thresholdB = thresholdbB.getAnd(thresholdgB);
+            thresholdB.and(thresholdrB);
+            thresholdB.dilate(3);
+            thresholdB.erode(1);
+
+            //finding contours! :)
+            WPIContour[] contoursB = thresholdB.findContours();
+            rawImage.drawContours(contoursB, WPIColor.BLUE, 5);
+
+            for (WPIContour contour : contoursB) {
+                // Approximate the contour into a polygon
+                WPIPolygon polygonB = contour.approxPolygon(8);
+                 rawImage.drawPolygon(polygonB, WPIColor.GREEN, 6);
+
+                // Make sure it has 4 pointsB
+                WPIPoint[] pointsB = polygonB.getPoints();
+                if (pointsB.length == 4) {
+                    
+                    RectangleB rectangleB = new RectangleB(pointsB);
+                    WPIPoint centerBPoly = rectangleB.getCenterpoint();
+                if (rectangleB != null) {
+                    // Find the difference between x values
+                    double centerImageXB = rawImage.getWidth() / 2;
+                    double centerRectXB = rectangleB.getCenterpoint().getX();
+                    double differenceB = centerRectXB - centerImageXB;
+
+                    // rescale to make the difference -1 if all the way left, 1 if all the way right
+                    differenceB *= 2.0 / rawImage.getWidth();
+
+                    // Send the difference to the robot
+                    NetworkTable table = NetworkTable.getTable("camera");
+                    table.putBoolean("foundTargetB", true);//I added B because without it you would be over writing the turret code and it would all go bloop. You need a new entry in the table.
+                    table.putDouble("xDifferenceB", differenceB);//B
+
+
+                } else {
+                    // no target visible
+                    NetworkTable table = NetworkTable.getTable("camera");
+                    table.putBoolean("foundTargetB", false);//B
+                    table.putDouble("xDifferenceB", 0);//B
+
+                }
+            }
+        }
+            
+        }
+         catch (Exception b) {
+             JOptionPane.showMessageDialog(this, "IT'S ALL NATHAN'S FAULT");
+            b.printStackTrace();
+        }
+
+        return rawImage;
+    }
+
+    public WPIPoint midpoint(WPIPoint point1, WPIPoint point2) {
+        int xc = (point1.getX() + point2.getX()) / 2;
+        int yc = (point1.getY() + point2.getY()) / 2;
+        return new WPIPoint(xc, yc);
+    }
+
+    public WPIPoint getCenterpoint() {
+        WPIPoint cy = midpoint(topBLeft, bottomBLeft);
+        WPIPoint cx = midpoint(topBLeft, topBRight);
+        return new WPIPoint(cx.getX(), cy.getY());
+    }
+}

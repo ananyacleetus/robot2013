@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands
+END
+PS3SetPointTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/PS3SetPointTurret.java
+END
+TESTMoveToSetPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/TESTMoveToSetPoint.java
+END
+DELETEAutoShootImmobile.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/DELETEAutoShootImmobile.java
+END
+TESTGoToLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/555/Watson2012/src/girlsofsteel/commands/TESTGoToLocation.java
+END
+Collect.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/Collect.java
+END
+FindCameraDataPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/girlsofsteel_robot/!svn/ver/606/Watson2012/src/girlsofsteel/commands/FindCameraDataPoint.java
+END
+StopCollectors.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/454/Watson2012/src/girlsofsteel/commands/StopCollectors.java
+END
+DELETETuneCamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/DELETETuneCamera.java
+END
+PS3ManualTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/PS3ManualTurret.java
+END
+TESTGyro.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/TESTGyro.java
+END
+Buttons.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/Buttons.java
+END
+SetPointTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/SetPointTurret.java
+END
+ManualShoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/ManualShoot.java
+END
+AutonomousKeyShootTwoBalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/AutonomousKeyShootTwoBalls.java
+END
+TESTAutonomousCenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/TESTAutonomousCenter.java
+END
+ManualTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/ManualTurret.java
+END
+TESTChassis.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/TESTChassis.java
+END
+DriveJagsLinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/DriveJagsLinear.java
+END
+TopRollersForward.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/TopRollersForward.java
+END
+AutonomousOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/AutonomousOptions.java
+END
+TopRollersReverse.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/572/Watson2012/src/girlsofsteel/commands/TopRollersReverse.java
+END
+AutonomousChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/615/Watson2012/src/girlsofsteel/commands/AutonomousChooser.java
+END
+TurnToSetPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/TurnToSetPoint.java
+END
+DELETEAutoShoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/DELETEAutoShoot.java
+END
+DisableShooter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/DisableShooter.java
+END
+BridgeUp.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/girlsofsteel_robot/!svn/ver/449/Watson2012/src/girlsofsteel/commands/BridgeUp.java
+END
+Shoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/Shoot.java
+END
+CommandBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/girlsofsteel_robot/!svn/ver/450/Watson2012/src/girlsofsteel/commands/CommandBase.java
+END
+TopRollersOff.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/girlsofsteel_robot/!svn/ver/572/Watson2012/src/girlsofsteel/commands/TopRollersOff.java
+END
+BridgeDownContinuous.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/girlsofsteel_robot/!svn/ver/594/Watson2012/src/girlsofsteel/commands/BridgeDownContinuous.java
+END
+DELETEAutoShootWhileMoving.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/DELETEAutoShootWhileMoving.java
+END
+CameraShooterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/CameraShooterTest.java
+END
+TopRollersFoward.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/618/Watson2012/src/girlsofsteel/commands/TopRollersFoward.java
+END
+AutonomousShootTwoBalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/AutonomousShootTwoBalls.java
+END
+FindCameraFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/girlsofsteel_robot/!svn/ver/609/Watson2012/src/girlsofsteel/commands/FindCameraFunction.java
+END
+CameraAuto.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/CameraAuto.java
+END
+TuningShooterPID.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/616/Watson2012/src/girlsofsteel/commands/TuningShooterPID.java
+END
+PS3ShootUsingJoystick.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/PS3ShootUsingJoystick.java
+END
+TESTSetPointTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/TESTSetPointTurret.java
+END
+IncrementShoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/IncrementShoot.java
+END
+TurretTrackTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/596/Watson2012/src/girlsofsteel/commands/TurretTrackTarget.java
+END
+BridgeDown.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/girlsofsteel_robot/!svn/ver/449/Watson2012/src/girlsofsteel/commands/BridgeDown.java
+END
+DrivePositionChassisTuning.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/DrivePositionChassisTuning.java
+END
+DriveSlowVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/DriveSlowVelocity.java
+END
+PS3ThreeBallsNo.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/girlsofsteel_robot/!svn/ver/549/Watson2012/src/girlsofsteel/commands/PS3ThreeBallsNo.java
+END
+TESTAutonomousShootTwoBalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/TESTAutonomousShootTwoBalls.java
+END
+DisableChassis.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/DisableChassis.java
+END
+AutoMoveBackCollectShoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/AutoMoveBackCollectShoot.java
+END
+DriveSlowTurning.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/594/Watson2012/src/girlsofsteel/commands/DriveSlowTurning.java
+END
+MoveToSetPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/MoveToSetPoint.java
+END
+TESTTurnToSetPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/TESTTurnToSetPoint.java
+END
+GoToLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/GoToLocation.java
+END
+TESTDriveSlowVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/TESTDriveSlowVelocity.java
+END
+TESTShooterPID.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/TESTShooterPID.java
+END
+DriveVelocityLinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/girlsofsteel_robot/!svn/ver/602/Watson2012/src/girlsofsteel/commands/DriveVelocityLinear.java
+END
+AutoTuneCamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/girlsofsteel_robot/!svn/ver/616/Watson2012/src/girlsofsteel/commands/AutoTuneCamera.java
+END
+ShootUsingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/ShootUsingTable.java
+END
+TESTTurretPID.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/TESTTurretPID.java
+END
+ReverseCollectors.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/ReverseCollectors.java
+END
+ManualTuneCamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/girlsofsteel_robot/!svn/ver/613/Watson2012/src/girlsofsteel/commands/ManualTuneCamera.java
+END
+TESTTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/girlsofsteel_robot/!svn/ver/588/Watson2012/src/girlsofsteel/commands/TESTTurret.java
+END
+TESTShooter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/girlsofsteel_robot/!svn/ver/611/Watson2012/src/girlsofsteel/commands/TESTShooter.java
+END
+DisableTurret.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/girlsofsteel_robot/!svn/ver/586/Watson2012/src/girlsofsteel/commands/DisableTurret.java
+END
+TESTShootUsingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/girlsofsteel_robot/!svn/ver/593/Watson2012/src/girlsofsteel/commands/TESTShootUsingTable.java
+END
+DriveVelocityChassisTuning.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/girlsofsteel_robot/!svn/ver/620/Watson2012/src/girlsofsteel/commands/DriveVelocityChassisTuning.java
+END

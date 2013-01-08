@@ -1,0 +1,38 @@
+package girlsofsteel.commands;
+
+import edu.wpi.first.wpilibj.command.CommandGroup;
+
+/* rollers face bridges -> touching top of key
+ * center position & coopertition bridge
+ * shoot, move to bridge, push down, collect, shoot
+ */
+
+//Center Position Shooting Autonomous -> shoot & bridge-shoot
+
+public class AutonomousCommand1 extends CommandGroup{
+    
+    /*
+     * these are approximate values -> need to test (should work)
+     * robot has shooter facing the hoops, collector & bridge arm facing bridge
+     * shoots 2 balls, moves backward, pushes bridge arm down, collects balls,
+     * shoots new balls
+     */
+    
+    double x = 0.0;
+    double y = 1.0922;
+    //meters from front of the bumpers (lined up with the key) to 7 inches away
+    //from the bridge minus robot length from bumber to bumper
+    //(should line back bumper 7 inches from the bridge)
+    double degrees = 0.0; //want robot to face the same way after moving as before
+    
+    public AutonomousCommand1(){
+        addSequential(new AutonomousShootTwoBalls());
+        addSequential(new AutoMoveBackCollectShoot(x,y,degrees));
+    }
+    
+    protected void end(){
+        addParallel(new DisableShooter());
+        addParallel(new StopCollectors());
+    }
+    
+}
